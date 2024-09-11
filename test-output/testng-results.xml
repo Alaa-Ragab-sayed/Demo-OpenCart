@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-11T07:14:56 EEST" name="Default suite" finished-at="2024-09-11T07:16:39 EEST" duration-ms="103621">
+    <groups>
+    </groups>
+    <test started-at="2024-09-11T07:14:56 EEST" name="Default test" finished-at="2024-09-11T07:16:39 EEST" duration-ms="103621">
+      <class name="tests.CartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CartTest@ec2cc4]" started-at="2024-09-11T07:14:56 EEST" name="setup" finished-at="2024-09-11T07:15:22 EEST" duration-ms="25719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAccesstoCartPage()[pri:0, instance:tests.CartTest@ec2cc4]" started-at="2024-09-11T07:15:22 EEST" name="testAccesstoCartPage" finished-at="2024-09-11T07:16:34 EEST" duration-ms="71956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccesstoCartPage -->
+        <test-method is-config="true" signature="captureFailedTest(org.testng.ITestResult)[pri:0, instance:tests.CartTest@ec2cc4]" started-at="2024-09-11T07:16:34 EEST" name="captureFailedTest" finished-at="2024-09-11T07:16:34 EEST" duration-ms="79" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAccesstoCartPage status=SUCCESS method=CartTest.testAccesstoCartPage()[pri:0, instance:tests.CartTest@ec2cc4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailedTest -->
+        <test-method is-config="true" signature="quitFromDriver()[pri:0, instance:tests.CartTest@ec2cc4]" started-at="2024-09-11T07:16:34 EEST" name="quitFromDriver" finished-at="2024-09-11T07:16:39 EEST" duration-ms="5394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitFromDriver -->
+      </class> <!-- tests.CartTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

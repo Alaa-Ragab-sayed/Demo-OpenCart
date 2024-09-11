@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OpenCart Suite]">
+  <test thread-count="5" name="Functionality Test(failed)">
+    <classes>
+      <class name="tests.CartTest">
+        <methods>
+          <include name="setup"/>
+          <include name="captureFailedTest"/>
+          <include name="testVerifyItems"/>
+          <include name="quitFromDriver"/>
+          <include name="testAccesstoCartPage"/>
+          <include name="testAccessToCheckout"/>
+        </methods>
+      </class> <!-- tests.CartTest -->
+      <class name="tests.RegistrationTest">
+        <methods>
+          <include name="setup"/>
+          <include name="captureFailedTest"/>
+          <include name="quitFromDriver"/>
+          <include name="testValidLogin"/>
+        </methods>
+      </class> <!-- tests.RegistrationTest -->
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="testValidLogin"/>
+          <include name="setup"/>
+          <include name="captureFailedTest"/>
+          <include name="quitFromDriver"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+    </classes>
+  </test> <!-- Functionality Test(failed) -->
+</suite> <!-- Failed suite [OpenCart Suite] -->
