@@ -11,7 +11,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import pages.LoginPage;
-import utils.ScreenshotHelper;
 import utils.WebDriverManager;
 
 public class LoginTest {
@@ -34,7 +33,6 @@ public class LoginTest {
 		Assert.assertEquals("My Account", loginpage.isLoggedin());
 
 	}
-
 	@AfterMethod
 	public void captureFailedTest(ITestResult result) {
 		ScreenshotHelper.takeScreenshot(driver, result);

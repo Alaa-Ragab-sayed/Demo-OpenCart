@@ -7,8 +7,10 @@
         <methods>
           <include name="setup"/>
           <include name="captureFailedTest"/>
+          <include name="testVerifyItems"/>
           <include name="quitFromDriver"/>
           <include name="testAccesstoCartPage"/>
+          <include name="testAccessToCheckout"/>
         </methods>
       </class> <!-- tests.CartTest -->
     </classes>

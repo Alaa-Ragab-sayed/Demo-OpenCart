@@ -1,0 +1,12 @@
+utils\Waiting.class
+pages\LoginPage.class
+pages\CartPage.class
+pages\HomePage.class
+pages\CheckoutPage.class
+utils\JavaScriptCode.class
+utils\WebDriverManager.class
+pages\RegistrationPage.class
+pages\RegConfirmPage.class
+utils\ConfigReader.class
+data\DataForRegistration.class
+pages\MyAccountPage.class

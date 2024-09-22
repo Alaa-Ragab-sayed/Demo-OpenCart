@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-21T17:59:05 EEST" name="Surefire suite" finished-at="2024-09-21T18:03:41 EEST" duration-ms="275457">
+    <groups>
+    </groups>
+    <test started-at="2024-09-21T17:59:05 EEST" name="Surefire test" finished-at="2024-09-21T18:03:41 EEST" duration-ms="275457">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@557a1e2d]" started-at="2024-09-21T18:00:20 EEST" name="setup" finished-at="2024-09-21T18:00:57 EEST" duration-ms="36726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testValidLogin()[pri:0, instance:tests.LoginTest@557a1e2d]" started-at="2024-09-21T18:00:57 EEST" name="testValidLogin" finished-at="2024-09-21T18:01:26 EEST" duration-ms="28963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="captureFailedTest(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@557a1e2d]" started-at="2024-09-21T18:01:26 EEST" name="captureFailedTest" finished-at="2024-09-21T18:01:26 EEST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=LoginTest.testValidLogin()[pri:0, instance:tests.LoginTest@557a1e2d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailedTest -->
+        <test-method is-config="true" signature="quitFromDriver()[pri:0, instance:tests.LoginTest@557a1e2d]" started-at="2024-09-21T18:01:26 EEST" name="quitFromDriver" finished-at="2024-09-21T18:01:32 EEST" duration-ms="6223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitFromDriver -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.CartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CartTest@7bc10d84]" started-at="2024-09-21T17:59:05 EEST" name="setup" finished-at="2024-09-21T17:59:26 EEST" duration-ms="20506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAccesstoCartPage()[pri:0, instance:tests.CartTest@7bc10d84]" started-at="2024-09-21T17:59:26 EEST" name="testAccesstoCartPage" finished-at="2024-09-21T18:00:10 EEST" duration-ms="43555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccesstoCartPage -->
+        <test-method is-config="true" signature="captureFailedTest(org.testng.ITestResult)[pri:0, instance:tests.CartTest@7bc10d84]" started-at="2024-09-21T18:00:11 EEST" name="captureFailedTest" finished-at="2024-09-21T18:00:11 EEST" duration-ms="57" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAccesstoCartPage status=SUCCESS method=CartTest.testAccesstoCartPage()[pri:0, instance:tests.CartTest@7bc10d84] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailedTest -->
+        <test-method signature="testVerifyItems()[pri:1, instance:tests.CartTest@7bc10d84]" started-at="2024-09-21T18:00:11 EEST" name="testVerifyItems" finished-at="2024-09-21T18:00:13 EEST" duration-ms="2126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyItems -->
+        <test-method is-config="true" signature="captureFailedTest(org.testng.ITestResult)[pri:0, instance:tests.CartTest@7bc10d84]" started-at="2024-09-21T18:00:13 EEST" name="captureFailedTest" finished-at="2024-09-21T18:00:13 EEST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyItems status=SUCCESS method=CartTest.testVerifyItems()[pri:1, instance:tests.CartTest@7bc10d84] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailedTest -->
+        <test-method signature="testAccessToCheckout()[pri:2, instance:tests.CartTest@7bc10d84]" started-at="2024-09-21T18:00:13 EEST" name="testAccessToCheckout" finished-at="2024-09-21T18:00:18 EEST" duration-ms="5025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccessToCheckout -->
+        <test-method is-config="true" signature="captureFailedTest(org.testng.ITestResult)[pri:0, instance:tests.CartTest@7bc10d84]" started-at="2024-09-21T18:00:18 EEST" name="captureFailedTest" finished-at="2024-09-21T18:00:18 EEST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAccessToCheckout status=SUCCESS method=CartTest.testAccessToCheckout()[pri:2, instance:tests.CartTest@7bc10d84] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailedTest -->
+        <test-method is-config="true" signature="quitFromDriver()[pri:0, instance:tests.CartTest@7bc10d84]" started-at="2024-09-21T18:00:18 EEST" name="quitFromDriver" finished-at="2024-09-21T18:00:20 EEST" duration-ms="2348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitFromDriver -->
+      </class> <!-- tests.CartTest -->
+      <class name="tests.RegistrationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RegistrationTest@26a4842b]" started-at="2024-09-21T18:01:32 EEST" name="setup" finished-at="2024-09-21T18:01:42 EEST" duration-ms="10010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testValidLogin()[pri:0, instance:tests.RegistrationTest@26a4842b]" started-at="2024-09-21T18:01:42 EEST" name="testValidLogin" finished-at="2024-09-21T18:03:38 EEST" duration-ms="115893" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for url to contain "success". Current url: "https://demo.opencart.com/en-gb?route=account/register" (tried for 50 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "success". Current url: "https://demo.opencart.com/en-gb?route=account/register" (tried for 50 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at utils.Waiting.loadURL(Waiting.java:53)
+at pages.RegConfirmPage.getTitlePage(RegConfirmPage.java:16)
+at pages.RegistrationPage.verifyRegist(RegistrationPage.java:84)
+at tests.RegistrationTest.testValidLogin(RegistrationTest.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="captureFailedTest(org.testng.ITestResult)[pri:0, instance:tests.RegistrationTest@26a4842b]" started-at="2024-09-21T18:03:38 EEST" name="captureFailedTest" finished-at="2024-09-21T18:03:39 EEST" duration-ms="483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLogin status=FAILURE method=RegistrationTest.testValidLogin()[pri:0, instance:tests.RegistrationTest@26a4842b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailedTest -->
+        <test-method is-config="true" signature="quitFromDriver()[pri:0, instance:tests.RegistrationTest@26a4842b]" started-at="2024-09-21T18:03:39 EEST" name="quitFromDriver" finished-at="2024-09-21T18:03:41 EEST" duration-ms="1633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitFromDriver -->
+      </class> <!-- tests.RegistrationTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

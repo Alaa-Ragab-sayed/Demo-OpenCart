@@ -1,0 +1,4 @@
+tests\CartTest.class
+tests\RegistrationTest.class
+tests\LoginTest.class
+tests\ScreenshotHelper.class

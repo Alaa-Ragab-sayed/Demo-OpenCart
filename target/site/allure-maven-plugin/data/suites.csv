@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","28939","testValidLogin","Surefire suite","Sat Sep 21 18:00:57 EEST 2024","passed","Sat Sep 21 18:01:26 EEST 2024","tests.LoginTest","Surefire test","tests.LoginTest","testValidLogin"
+"","115897","testValidLogin","Surefire suite","Sat Sep 21 18:01:42 EEST 2024","broken","Sat Sep 21 18:03:38 EEST 2024","tests.RegistrationTest","Surefire test","tests.RegistrationTest","testValidLogin"
+"","4983","testAccessToCheckout","Surefire suite","Sat Sep 21 18:00:13 EEST 2024","passed","Sat Sep 21 18:00:18 EEST 2024","tests.CartTest","Surefire test","tests.CartTest","testAccessToCheckout"
+"","43234","testAccesstoCartPage","Surefire suite","Sat Sep 21 17:59:26 EEST 2024","passed","Sat Sep 21 18:00:10 EEST 2024","tests.CartTest","Surefire test","tests.CartTest","testAccesstoCartPage"
+"","2083","testVerifyItems","Surefire suite","Sat Sep 21 18:00:11 EEST 2024","passed","Sat Sep 21 18:00:13 EEST 2024","tests.CartTest","Surefire test","tests.CartTest","testVerifyItems"

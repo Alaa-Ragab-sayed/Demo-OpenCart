@@ -9,7 +9,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import pages.RegistrationPage;
-import utils.ScreenshotHelper;
 import utils.WebDriverManager;
 
 public class RegistrationTest {
@@ -35,6 +34,7 @@ public class RegistrationTest {
 		registrationPage.clickContinue();
 		Assert.assertEquals("Your Account Has Been Created!", registrationPage.verifyRegist());
 	}
+
 	@AfterMethod
 	public void captureFailedTest(ITestResult result) {
 		ScreenshotHelper.takeScreenshot(driver, result);
