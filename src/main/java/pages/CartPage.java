@@ -36,9 +36,7 @@ public class CartPage {
 
 	public void addItemsAfterLogin() throws InterruptedException {
 
-		loginpage.openLoginPage();
-		loginpage.inputEmail();
-		loginpage.inputPassword();
+		loginpage.login();
 		homePage.openPage();
 		homePage.selectItems();
 	}

@@ -35,7 +35,6 @@ public class CartTest {
 	@Step("Test access to cart page")
 	@Test(priority = 0)
 	public void testAccesstoCartPage() throws InterruptedException {
-
 		cartPage.addItemsAfterLogin();
 		cartPage.toCartPageAfterAdding();
 		Assert.assertEquals("Shopping Cart", cartPage.titleForCartPage());

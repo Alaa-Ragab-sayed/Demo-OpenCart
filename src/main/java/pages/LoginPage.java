@@ -41,6 +41,13 @@ public class LoginPage {
 		driver.findElement(By.cssSelector("button.btn.btn-primary")).click();
 	}
 
+	public void login() {
+		openLoginPage();
+		inputEmail();
+		inputPassword();
+		clickLogin();
+	}
+
 	public String isLoggedin() {
 		return successfulLogin.getPageTitle();
 	}
